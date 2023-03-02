@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../assets/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Info */
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #F9003D;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+.header_cont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_cont {
+    display: flex;
+    width: 600px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    font-family: 'Bebas';
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Main Banner/section */
+
+.banner_cont {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 740px;
+}
+
+.img_background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont_text_banner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 121px;
+}
+
+.cont_text_banner h1 {
+    font-family: 'Bebas';
+    color: #FFFFFF;
+    font-size: 96px;
+    font-weight: 400;
+    width: 600px;
+    height: 230px;
+}
+
+hr {
+    border: 1px solid #FFAF00;
+    margin: 20px 0;
+    width: 41vw;
+}
+
+.cont_text_banner span {
+    font-family: 'Courier New';
+    font-size: 53px;
+    font-weight: 700;
+    color: #F9003D;
+    text-transform: uppercase;
+}
+
+.mouse_icon {
+    width: 37px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+/* Main About/section */
