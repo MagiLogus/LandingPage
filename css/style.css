@@ -33,9 +33,14 @@ header {
 
 .header_cont {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.img_logo {
+    width: 215px;
+    height: 58px;
 }
 
 .nav_cont {
@@ -82,7 +87,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     top: 200px;
-    left: 121px;
+    left: 157px;
 }
 
 .cont_text_banner h1 {
@@ -97,7 +102,7 @@ header nav a:hover {
 hr {
     border: 1px solid #FFAF00;
     margin: 20px 0;
-    width: 41vw;
+    width: 545px;
 }
 
 .cont_text_banner span {
@@ -247,7 +252,7 @@ hr {
 .iframe {
     position: absolute;
     top: 125px;
-    right: 250px;
+    right: 335px;
 }
 
 /* Footer */
