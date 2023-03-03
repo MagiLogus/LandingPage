@@ -192,7 +192,63 @@ hr {
     margin-bottom: 10px;
 }
 
+.box {
+    width: 289px;
+    height: 100px;
+    border: 1px solid #A259F7;
+    font-family: 'Courier New';
+    font-size: 28px;
+    font-weight: bold;
+    color: #A259F7;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Main Adress/Section */
+
+.section_adress {
+    background-image: url(../assets/imagem-fundo-endereco.png);
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section_adress h2 {
+    font-family: "Bebas";
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFAF00;
+    width: 899px;
+}
+
+.box_adress {
+    display: flex;
+    align-items: center;
+    width: 899px;
+    height: 204px;
+    background-color: #010010;
+    border: 2px solid #340B65;
+}
+
+.box_adress p {
+    font-family: 'Courier New';
+    font-size: 24px;
+    line-height: 27px;
+    color: #A259F7;
+    width: 435px;
+    margin-left: 66px;
+}
+
+.iframe {
+    position: absolute;
+    top: 125px;
+    right: 250px;
+}
 
 /* Footer */
 
