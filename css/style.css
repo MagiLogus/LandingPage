@@ -271,3 +271,17 @@ footer span {
     font-size: 18px;
     color: #FFFFFF;
 }
+
+
+
+
+media queries comente 
+
+tablets 768px ----992px
+
+smart o ate 767px
+
+
+@media screen and (max-width: 767px) {
+    
+}
