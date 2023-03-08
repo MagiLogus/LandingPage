@@ -87,7 +87,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     top: 226px;
-    left: 100,83px;
+    left: 100.83px;
 }
 
 .cont_text_banner h1 {
@@ -248,7 +248,7 @@ hr {
     font-size: 24px;
     line-height: 27px;
     color: #A259F7;
-    width: 435px;
+    width: 500px;
     height: 88.5px;
     padding-left: 66px;
     padding-bottom: 57.43px;
@@ -286,14 +286,12 @@ footer span {
 
     header {
         max-width: 414px;
+        
     }
 
-    .header_cont {
-        max-width: 414px;
-    }
 
     .img_logo {
-        width: 107,5px;
+        width: 107.5px;
         height: 29px;
         position: relative;
         left: 46px;
