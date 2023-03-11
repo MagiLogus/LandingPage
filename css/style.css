@@ -231,6 +231,7 @@ hr {
     font-weight: 400;
     color: #FFAF00;
     width: 899px;
+    margin: 0 auto;
 }
 
 .box_adress {
@@ -241,6 +242,7 @@ hr {
     background-color: #010010;
     border: 2px solid #A259F7;
     position: relative;
+    margin: 0 auto;
 }
 
 .box_adress p {
