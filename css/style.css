@@ -285,71 +285,38 @@ footer span {
 
 @media screen and (max-width: 767px) {
 
-    /* Header */
-
-    header {
-        max-width: 414px;
-        
-    }
-
-
-    .img_logo {
-        width: 107.5px;
-        height: 29px;
-        position: relative;
-        left: 46px;
-    }
-
-    header nav a {
+    footer, main {
         display: none;
     }
 
-    header #Icon_menu {
-       display: flex;
-       position: relative; 
-       right: 13px;
-       align-items: center;
-    }
-    
-    /* Banner/Session */
+.page_grid {
+    width: 100%;
+    margin: auto;
+}
 
-    .banner_cont {
-        width: 414px;
-        height: 528px;
-    }
-    
-    .img_background {
-        background-size: cover;
-    }
+    /* Header Info */
 
-    .cont_text_banner {
-        top: 83px;
-        left: 46px;
-    }
+.img_logo {
+    margin-left: 13px;
+    width: 107.5px;
+    height: 29px;
+}
+
+.nav_cont {
+    display: none;
+}
+
+header nav a {
+    display: none;
+}
+
+header #Icon_menu {
+    margin-right: 13px;
+    display: block;
+}
+
+
+   
     
-    .cont_text_banner h1 {
-        font-size: 40px;
-        width: 339px;
-        height: 125px;
-        
-    }
-    
-    hr {
-        width: 300px;
-        vertical-align: middle;
-        
-    }
-    
-    .cont_text_banner span {
-        font-size: 35px;
-        font-weight: 400;
-        margin-top: 35px;
-    }
-    
-    .mouse_icon {
-        display: flex;
-        position: relative;
-        left: 121px;
-    }
     
 }
