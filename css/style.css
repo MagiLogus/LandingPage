@@ -1,3 +1,4 @@
+/* Desketop First */
 @font-face {
     font-family: "Bebas";
     src: url(../assets/fonts/BebasNeue-Regular.ttf);
@@ -66,9 +67,9 @@ header #Icon_menu {
 }
 
 header nav a:hover {
-    background-color:#080324;
-    padding: 15px 50px;
-    border-radius: 8px;
+    background-color:#FFAF00;
+    padding: 19px 45px;
+    border-radius: 10px;
 }    
 
 /* Main Banner/section */
