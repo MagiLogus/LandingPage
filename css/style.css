@@ -285,10 +285,6 @@ footer span {
 
 @media screen and (max-width: 767px) {
 
-    footer, main {
-        display: none;
-    }
-
 .page_grid {
     width: 100%;
     margin: auto;
@@ -315,8 +311,170 @@ header #Icon_menu {
     display: block;
 }
 
+/* Main Banner/section */
+
+.banner_cont {
+    height: 528px;
+    background-position: center center;
+}
+
+.cont_text_banner {
+    position: relative;
+    top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_text_banner h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+    height: 96px;
+}
+
+hr {
+    width: 300px;
+}
+
+.cont_text_banner span {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main About/section */
+
+.section_about {
+    background-color: #080324;
+    height: 1134px;
+    display: flex;
+    justify-content: center;
+}
+
+.section_about h2 {
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    padding: 50px; 
+}
+
+.img_about {
+    height: 357px;
+    width: 365px;
+}
+
+.cont_about {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_about span {
+    position: relative;
+    bottom: 385px;
+}
+
+.section_about h3 {
+    font-size: 30px;
+    width: 365px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section_about p {
+    width: 365px;
+    padding: 5px;
+}
+
+/* Main Info/Section */
+
+.section_info {
+    height: 545px;
+}
+
+.box_Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+/* Main Adress/Section */
+
+.section_adress {
+    height: 598px;
+}
+
+.section_adress h2 {
+    font-size: 40px;
+    width: 117px;
+}
+
+.box_adress {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 428px;
+    width: 95%;
+    position: relative;
+}
+
+.box_adress p {
+    height: 200px;
+    width: 95%;
+    display: flex;
+    padding-top: 0;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.box_iframe {
+   position: absolute;
+   height: 244px;
+   width: 344px;
+   top: 150px;
+   left: 4.5px;
+  }
+
+/* Footer */
+
+footer span {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
    
     
     
-}
