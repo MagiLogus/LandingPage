@@ -446,14 +446,13 @@ hr {
 }
 
 .box_iframe {
-   position: absolute;
-   height: 244px;
-   width: 344px;
-   top: 65%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-
-  }
+    position: absolute;
+    height: 244px;
+    width: 344px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Footer */
 
