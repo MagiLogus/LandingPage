@@ -418,6 +418,7 @@ hr {
 
 .section_adress {
     height: 598px;
+    position: relative;
 }
 
 .section_adress h2 {
@@ -436,7 +437,7 @@ hr {
 
 .box_adress p {
     height: 200px;
-    width: 95%;
+    width: 90%;
     display: flex;
     padding-top: 0;
     align-items: center;
@@ -448,8 +449,10 @@ hr {
    position: absolute;
    height: 244px;
    width: 344px;
-   top: 150px;
-   left: 4.5px;
+   top: 65%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
   }
 
 /* Footer */
