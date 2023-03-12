@@ -286,8 +286,14 @@ footer span {
 @media screen and (max-width: 767px) {
 
 .page_grid {
+    max-width: 355px;
     width: 100%;
     margin: auto;
+}
+
+.showmenu {
+    left: 0;
+    opacity: 1;
 }
 
     /* Header Info */
@@ -298,18 +304,43 @@ footer span {
     height: 29px;
 }
 
-.nav_cont {
-    display: none;
-}
-
-header nav a {
-    display: none;
-}
-
 header #Icon_menu {
     margin-right: 13px;
     display: block;
 }
+
+.nav_cont {
+    display: flex;
+    width: 350px;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header nav {
+    position: fixed;
+    top: 60px;
+    left: 80vw;
+    width: 80vw;
+    height: calc(100vw - 60px);
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #F9003D;
+    opacity: 0;
+    transition: left 0.2s, opacity 0.6s;
+}
+
+header nav a {
+    width: 100px;
+    border-left: 2px dashed #ffffff;
+    border-radius: 8;
+    text-align: center;
+} 
+
+header nav a:hover {
+    display: none;
+}  
 
 /* Main Banner/section */
 
@@ -447,8 +478,8 @@ hr {
 
 .box_iframe {
     position: absolute;
-    height: 244px;
-    width: 344px;
+    height: 60%;
+    width: 90%;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -459,21 +490,6 @@ hr {
 footer span {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 

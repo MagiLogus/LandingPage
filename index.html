@@ -14,13 +14,13 @@
     <header>
         <div class="page_grid header_cont">
             <img class="img_logo" src="assets/logos_senai_branco.png" alt="">
-            <nav class="nav_cont">
+            <nav id="navmenu" class="nav_cont">
                 <a href="">Home</a>
                 <a href="">About us</a>
                 <a href="">Challenges</a>
                 <a href="">Adress</a>
             </nav>
-            <img id="Icon_menu" src="assets/icons/Vector.svg" alt="">
+            <img id="Icon_menu" src="assets/icons/Vector.svg" alt="" onclick="showmenu()">
         </div>
     </header>
 
@@ -97,6 +97,12 @@
     <footer>
         <span>Copyright © 2023 - SENAI School of Information Technology</span>
     </footer>
+
+    <script>
+        function showmenu() {
+            document.getElementById("navmenu").classList.toggle("showmenu");
+        }
+    </script>
 
 </body>
 
